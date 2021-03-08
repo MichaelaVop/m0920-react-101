@@ -37,6 +37,17 @@ const data = [
 ]
 
 ReactDOM.render(
-    WHAT,
-    WHERE
+    <Category data={data}/>,
+    document.getElementById('root')
 );
+
+console.log("app end");
+
+/*
+ReactDOM.render(
+    <div className="row">
+      {cards}
+    </div>,
+  document.getElementById('root')
+)
+*/
